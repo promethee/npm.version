@@ -1,0 +1,14 @@
+{
+  "name": "npm.version",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:promethee/npm.version.git",
+  "author": "promethee <lunette.francois@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "version": "./index.js"
+  }
+}
