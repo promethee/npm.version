@@ -8,7 +8,7 @@ try {
   const done = writeFileSync(path.resolve('./'), version, 'utf8');
   if (done) {
     console.info('DONE', 'version', done);
-  process.exit(0);
+    process.exit(0);
   } else {
     console.error(done);
     process.exit(1);
